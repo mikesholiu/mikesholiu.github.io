@@ -58,77 +58,56 @@
 
     <ul class="nav nav-tabs">
       <li class="nav-item">
-        <a class="nav-link active" href="#">Summary</a>
+        <a class="nav-link active" href="#">Product Catalog</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="application_placeorder.html">Place Order</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="application_lotusinfo.html">Lotus Info</a>
+        <a class="nav-link" href="#">View Cart</a>
       </li>
     </ul>
 
-    <!-- table for lotus sales summary -->
-    <div class="container-fluid">
-      <h2>Lotus Sales Summary</h2>
-      <table class="table table-hover">
-        <thead>
+    <div class="container form-small-pad">
+      <div class="col-xs-12">
+        <div class="input-group">
+          <input type="text" class="form-control" placeholder="Search for beauty supplies:">
+          <span class="input-group-btn">
+            <button class="btn btn-default" type="button">Go!</button>
+          </span>
+        </div><!-- /input-group -->
+      </div><!-- /.col-lg-6 -->
+    </div><!-- /.row -->
+
+    <div class="container product-catalog-container">
+    <table class="table">
+      <thead>
           <tr>
-            <th>ID#</th>
-            <th>First Name</th>
-            <th>Last Name</th>
-            <th>Total Sales</th>
+            <th>SKU#</th>
+            <th>Title</th>
+            <th>Price</th>
+            <th>Quantity</th>
+
           </tr>
         </thead>
         <tbody>
           <tr>
             <th scope="row">BD1001</th>
-            <td>Jimmy</td>
-            <td>Liu</td>
-            <td>$1,622.10</td>
+            <td>Loreal Shampoo</td>
+            <td>$10.99</td>
+            <td></td>
           </tr>
           <tr>
             <th scope="row">BD1002</th>
-            <td>Olivia</td>
-            <td>Kang</td>
-            <td>$12,122.10</td>
+            <td>Giovanni Gel</td>
+            <td>$5.00</td>
+            <td></td>
           </tr>
           <tr>
             <th scope="row">BD1003</th>
-            <td>Michael</td>
-            <td>Chan</td>
-            <td>$15,111.10</td>
+            <td>Ardell Lash Black</td>
+            <td>$2.59</td>
+            <td></td>
           </tr>
         </tbody>
-      </table>
-    </div>
-
-    <div class="container-fluid">
-      <h2>Store Metrics</h2>
-      <table class="table table-hover">
-        <!-- <thead>
-          <tr>
-            <th>ID#</th>
-            <th>First Name</th>
-            <th>Last Name</th>
-            <th>Total Sales</th>
-          </tr>
-        </thead> -->
-        <tbody class="col-xs-12 col-md-8 padding-zero">
-          <tr >
-            <th scope="row">Total Lotus Sales</th>
-            <td>$28,855.30</td>
-          </tr>
-          <tr>
-            <th scope="row">Total Earned Commission</th>
-            <td>$7213.30</td>
-          </tr>
-          <tr>
-            <th scope="row">Total Units Sold</th>
-            <td>88</td>
-          </tr>
-        </tbody>
-      </table>
+    </table>
     </div>
   </body>
 </html>
