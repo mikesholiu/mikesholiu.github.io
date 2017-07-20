@@ -1,0 +1,171 @@
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+	    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+	    <meta name="description" content="">
+	    <meta name="author" content="">
+	    <link rel="icon" href="../../favicon.ico">
+
+	    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+
+		<!-- Latest compiled and minified JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+		<!-- Optional theme -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+		
+		<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+	    <link href="assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+	    <link href="assets/css/style.css" rel="stylesheet">
+	    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+	    <link href="assets/js/ie10-viewport-bug-workaround.js" rel="stylesheet">
+	</head>
+
+	<body>
+
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div class="jumbotron">
+      <div class="container">
+        <p class="home-language-select lato-font"><a href='#'>EN</a> | <a href='#'>中文</a></p>
+        <img class="home-logo center-block" src="assets/images/lotus_alliance_logo.svg">
+        <p class="home-tagline lato-font">Increased revenue for beauty and health professionals.</p>
+        <p class="home-sign-in-buttons">
+        	<a class="btn btn-primary btn-md" type="button" data-toggle="modal" data-target="#signupModal">Apply to Join</a>
+        	<a class="btn btn-success btn-md" type="button" data-toggle="modal" data-target="#signinModal">Sign In</a>
+      </div>
+    </div>
+
+<!--
+    <div class="container lato-font faq-text">
+      <div class="row">
+        <div class="col-md-4">
+          <h2>How to Join</h2>
+          <p>The Lotus Alliance is open to all beauty and health professionals with a brick and mortar location. Signing up is 100% free. There are no fees or charges. We only ask that you place a Lotus Alliance sticker on your store window. Apply to join here.</p>
+        </div>
+        <div class="col-md-4">
+          <h2>Benefits</h2>
+          <p>As a member of the Lotus Alliance, you get access to special pricing and commissions on Lotus Toilet Seat sales. Your customers also get special discounted rates on Lotus brand products. You may also qualify for a free Lotus Seat at your location.</p>
+          <p>Lotus Alliance members also get access to over 5000 products at distributor prices from our online catalog. Products are delivered with best-in-class customer service.</p>
+          
+       </div>
+        <div class="col-md-4">
+          <h2>Online Portal</h2>
+          <p>Log in to track your sales progress, view monthly and seasonal product discounts, and place orders for products from over 100 professional brands.</p>
+        </div>
+      </div>
+     </div> -->
+
+    <div class="container-fluid lato-font home-description">
+    	<div class="row">
+	    	<!-- <div class="col-xs-12 col-md-6 center-col home-row-image">
+	    		<img class="row-image" src="assets/images/ats_500.png">
+	    	</div> -->
+	    	<div class="col-xs-12 col-md-6 just-col home-explanation-text ">
+		    	<div class="grid-image"><img class="row-image" src="assets/images/ats_500.png"></div>
+		    	<h3 id="desc-title">Earn revenue from Lotus</h3>
+		    	<p>Alliance members can sell Lotus Seats to customers at exclusive prices without holding <i>any</i> inventory. Your customers get a great deal and you make extra income with no strings attached. We also provide a <i>free</i> Lotus seat for the restroom at your business.</p>
+	    	</div>
+	    	
+	    	<div class="col-xs-12 col-md-6 just-col home-explanation-text">
+	    	<div class="grid-image"><img class="row-image" src="assets/images/tresseme.png"></div>
+		    	<h3 id="desc-title">Get wholesale beauty prices</h3>
+		    	<p>As an Alliance member you have access to over 5000 beauty and health brands from 100 professional manufacturers. Order conveniently online and we'll ship to your doorstep.</p>
+	    	</div>
+	    </div>
+	       <div class="footer lato-font">
+    Lotus Hygiene Systems Inc., 2017
+    </div>
+    </div>
+
+ 
+
+	<div class="modal fade" id="signupModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+	  <div class="modal-dialog" role="document">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+	        <h4 class="modal-title" id="myModalLabel">Apply to Join</h4>
+	      </div>
+	      <div class="modal-body">
+	        <form>
+				<div class="form-group">
+					<label for="name">Name</label>
+					<input type="name" class="form-control" id="name" placeholder="Name">
+				</div>
+				<div class="form-group">
+					<label for="business-name">Business Name</label>
+					<input type="name" class="form-control" id="business-name" placeholder="Business Name">
+				</div>
+				<div class="form-group">
+					<label for="email">Email address</label>
+					<input type="email" class="form-control" id="email" placeholder="Email">
+				</div>
+				<div class="form-group">
+					<label for="number">Phone number</label>
+					<input type="number" class="form-control" id="number" placeholder="Phone Number">
+				</div>
+				<div class="form-group">
+					<label for="Address">Address</label>
+					<input type="Address" class="form-control" id="address" placeholder="Address 1">
+					<div class="form-small-pad"><input type="Address" class="form-control" id="address" placeholder="Address 2"></div>
+				</div>
+				<div class="form-group">
+					<label for="zip">Zip Code</label>
+					<input type="zip" class="form-control" id="zip" placeholder="Zip Code">
+					
+				</div>
+				<div class="form-group">
+					<label for="Business Type">Business Type</label>
+					<select class="form-control">
+					  <option>Hair Salon</option>
+					  <option>Nail Salon</option>
+					  <option>Massage</option>
+					  <option>Spa</option>
+					  <option>Other</option>
+					</select>
+				</div>
+				
+	        </form>
+	      </div>
+	      <div class="modal-footer">
+	        <button type="button" class="btn btn-primary">Submit Application</button>
+	      </div>
+	    </div>
+	  </div>
+	</div> 
+
+	<div class="modal fade" id="signinModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+	  <div class="modal-dialog" role="document">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+	        <h4 class="modal-title" id="myModalLabel">Sign In</h4>
+	      </div>
+	      <div class="modal-body">
+	        <form>
+				
+				<div class="form-group">
+					<label for="exampleInputEmail1">Email address</label>
+					<input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+				</div>
+				
+				<div class="form-group">
+					<label for="password">Password</label>
+					<input type="Password" class="form-control" id="password" placeholder="Password">
+				</div>
+				
+	        </form>
+	      </div>
+	      <div class="modal-footer">
+	      	<a href="application.html" class="btn btn-primary" role="button">Sign In</a>
+	      </div>
+	    </div>
+	  </div>
+	</div> 
+</body>

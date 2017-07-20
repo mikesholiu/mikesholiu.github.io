@@ -1,0 +1,244 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+      <meta name="description" content="">
+      <meta name="author" content="">
+      <link rel="icon" href="../../favicon.ico">
+
+      <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+
+      <!-- Latest compiled and minified JavaScript -->
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+      <!-- Latest compiled and minified CSS -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+      
+      <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+      <link href="assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+      <link href="assets/css/style.css" rel="stylesheet">
+      <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+      <link href="assets/js/ie10-viewport-bug-workaround.js" rel="stylesheet">
+
+      <!-- Chart.js -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.6.0/Chart.bundle.min.js"></script>
+
+  </head>
+
+  <body class="lato-font application-body">
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Jimmy - Sea Wave Salon</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="nav-item dropdown"><a href="#">Lotus</a>
+            </li>
+            <li><a href="#">Beauty</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="index.html">Log Out</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <ul class="nav nav-tabs">
+      <li class="nav-item">
+        <a class="nav-link active" href="application.html">Summary</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="application_placeorder.html">Place Order</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="application_lotusinfo.html">Lotus Info</a>
+      </li>
+    </ul>
+
+    <!-- table for lotus sales summary -->
+    <div class="container-fluid">
+    <h2>Place Lotus Order</h2>
+    <div class="col-xs-12 col-md-4">
+      
+      	<form class="form-inline">
+      		<h4>Select order quantities</h4>
+      		<label id="lotus-model-number" for="ATS500QTY">ATS 500</label>
+			<select id="ATS500QTY" class="form-group">
+				<option>0</option>
+				<option>1</option>
+				<option>2</option>
+				<option>3</option>
+				<option>4</option>
+				<option>5</option>
+				<option>6</option>
+			</select>
+				<label>
+				<input type="checkbox"> Round
+				</label>
+				<label>
+				<input type="checkbox"> Elongated
+				</label>
+		</form>
+		<form class="form-inline">
+      		<label id="lotus-model-number" for="ATS800">ATS 800</label>
+			<select id="ATS800QTY" class="form-group">
+				<option>0</option>
+				<option>1</option>
+				<option>2</option>
+				<option>3</option>
+				<option>4</option>
+				<option>5</option>
+				<option>6</option>
+			</select>
+			<label>
+				<input type="checkbox"> Round
+				</label>
+				<label>
+				<input type="checkbox"> Elongated
+				</label>
+		</form>
+		<form class="form-inline">
+      		<label id="lotus-model-number" for="ATS908">ATS 908</label>
+			<select id="ATS908QTY" class="form-group">
+				<option>0</option>
+				<option>1</option>
+				<option>2</option>
+				<option>3</option>
+				<option>4</option>
+				<option>5</option>
+				<option>6</option>
+			</select>
+			<label>
+				<input type="checkbox"> Round
+				</label>
+				<label>
+				<input type="checkbox"> Elongated
+				</label>
+		</form>
+		<form class="form-inline">
+      		<label id="lotus-model-number" for="ATS909">ATS 909</label>
+			<select id="ATS909QTY" class="form-group">
+				<option>0</option>
+				<option>1</option>
+				<option>2</option>
+				<option>3</option>
+				<option>4</option>
+				<option>5</option>
+				<option>6</option>
+			</select>
+			<label>
+				<input type="checkbox"> Round
+				</label>
+				<label>
+				<input type="checkbox"> Elongated
+				</label>
+		</form>
+		<form class="form-inline">
+      		<label id="lotus-model-number" for="ATS1000">ATS 1000</label>
+			<select id="ATS1000QTY" class="form-group">
+				<option>0</option>
+				<option>1</option>
+				<option>2</option>
+				<option>3</option>
+				<option>4</option>
+				<option>5</option>
+				<option>6</option>
+			</select>
+			<label>
+				<input type="checkbox"> Round
+				</label>
+				<label>
+				<input type="checkbox"> Elongated
+				</label>
+		</form>
+		<form class="form-inline">
+      		<label id="lotus-model-number" for="ATS2000">ATS 2000</label>
+			<select id="ATS2000QTY" class="form-group">
+				<option>0</option>
+				<option>1</option>
+				<option>2</option>
+				<option>3</option>
+				<option>4</option>
+				<option>5</option>
+				<option>6</option>
+			</select>
+			<label>
+				<input type="checkbox"> Round
+				</label>
+				<label>
+				<input type="checkbox"> Elongated
+				</label>
+		</form>
+
+		<div class="form-group">
+				<label for="notes">Notes</label>
+				<input type="notes" class="form-control notes-input" id="notes" placeholder="Notes on installation, order, customer feedback, etc.">
+		</div>
+
+    </div>
+   	
+   	<div class="col-xs-12 col-md-8">
+	  <div class="form-group customer-info-group">
+		<form class="form-inline">
+			<h4>Customer Information</h4>
+			<div class="form-group">
+				<label for="firstname">First Name</label>
+				<input type="name" class="form-control" id="firstname" placeholder="First Name">
+			</div>
+			<div class="form-group">
+				<label for="lastname">Last Name</label>
+				<input type="name" class="form-control" id="lastname" placeholder="Last Name">
+			</div>
+		</form>
+		<form class="form-inline">
+			<div class="form-group">
+				<label for="email">Email</label>
+				<input type="email" class="form-control" id="email" placeholder="example@gmail.com">
+			</div>
+		</form>
+		<form class="form-inline">
+			<div class="form-group">
+				<label for="phone">Phone</label>
+				<input type="phone" class="form-control" id="phone" placeholder="Phone Number">
+			</div>
+		</form>
+		<form class="form-inline">
+			<div class="form-group">
+				<label for="address">Street Address</label>
+				<input type="address" class="form-control" id="address" placeholder="Street Address">
+			</div>
+		</form>
+		<form class="form-inline">
+			<div class="form-group">
+				<label for="city">City</label>
+				<input type="city" class="form-control" id="city" placeholder="City">
+			</div>
+		</form>
+		<form class="form-inline">
+			<div class="form-group">
+				<label for="zip">Zip Code</label>
+				<input type="zip" class="form-control" id="zip" placeholder="Zip Code">
+			</div>
+		</form>
+	</div>
+   </div>
+
+   <div class="col-xs-12 col-md-4">
+     <form class="form-inline">
+     	<button type="submit" class="btn btn-success" id="submit-lotus-order">Submit Order</button>
+     </form>
+   </div>
+  
+
+  </body>
+</html>

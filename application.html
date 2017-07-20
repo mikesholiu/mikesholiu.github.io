@@ -1,0 +1,131 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+      <meta name="description" content="">
+      <meta name="author" content="">
+      <link rel="icon" href="../../favicon.ico">
+
+      <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+
+      <!-- Latest compiled and minified JavaScript -->
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+      <!-- Latest compiled and minified CSS -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+      
+      <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+      <link href="assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+      <link href="assets/css/style.css" rel="stylesheet">
+      <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+      <link href="assets/js/ie10-viewport-bug-workaround.js" rel="stylesheet">
+
+      <!-- Chart.js -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.6.0/Chart.bundle.min.js"></script>
+
+  </head>
+
+  <body class="lato-font application-body">
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Jimmy - Sea Wave Salon</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="nav-item dropdown"><a href="#">Lotus</a>
+            </li>
+            <li><a href="#">Beauty</a></li>
+            <li><a href="application_contact.html">Contact</a></li>
+            <li><a href="lotus_index.html">Log Out</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <ul class="nav nav-tabs">
+      <li class="nav-item">
+        <a class="nav-link active" href="#">Summary</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="application_placeorder.html">Place Order</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="application_lotusinfo.html">Lotus Info</a>
+      </li>
+    </ul>
+
+    <!-- table for lotus sales summary -->
+    <div class="container-fluid">
+      <h2>Lotus Sales Summary</h2>
+      <table class="table table-hover">
+        <thead>
+          <tr>
+            <th>ID#</th>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Total Sales</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">BD1001</th>
+            <td>Jimmy</td>
+            <td>Liu</td>
+            <td>$1,622.10</td>
+          </tr>
+          <tr>
+            <th scope="row">BD1002</th>
+            <td>Olivia</td>
+            <td>Kang</td>
+            <td>$12,122.10</td>
+          </tr>
+          <tr>
+            <th scope="row">BD1003</th>
+            <td>Michael</td>
+            <td>Chan</td>
+            <td>$15,111.10</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="container-fluid">
+      <h2>Store Metrics</h2>
+      <table class="table table-hover">
+        <!-- <thead>
+          <tr>
+            <th>ID#</th>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Total Sales</th>
+          </tr>
+        </thead> -->
+        <tbody class="col-xs-12 col-md-8 padding-zero">
+          <tr >
+            <th scope="row">Total Lotus Sales</th>
+            <td>$28,855.30</td>
+          </tr>
+          <tr>
+            <th scope="row">Total Earned Commission</th>
+            <td>$7213.30</td>
+          </tr>
+          <tr>
+            <th scope="row">Total Units Sold</th>
+            <td>88</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>
